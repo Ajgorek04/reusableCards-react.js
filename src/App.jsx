@@ -34,13 +34,16 @@ function App() {
                 </header>
                 <div className="designedBy">
                     <h2>Designed by</h2>
-                    <a
-                        href="https://github.com/Ajgorek04"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <h3>Ajgorek04</h3>
-                    </a>
+
+                    <h3>
+                        <a
+                            href="https://github.com/Ajgorek04"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ajgorek04
+                        </a>
+                    </h3>
                 </div>
             </div>
             {cryptocurrencies.map((crypto, index) => (
