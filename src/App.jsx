@@ -39,7 +39,7 @@ function App() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Ajgorek04
+                        <h3>Ajgorek04</h3>
                     </a>
                 </div>
             </div>

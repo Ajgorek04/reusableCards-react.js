@@ -34,7 +34,7 @@
 }
 
 .designedBy a:hover {
-    color: bisque;
+    color: #e3bb88;
 }
 
 @media only screen and (max-width: 600px) {

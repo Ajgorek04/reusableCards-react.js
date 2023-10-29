@@ -12,11 +12,11 @@ export function Card({ name, img, text, link }) {
                 <p>{text}</p>
             </div>
             <div className={styles.learnMore}>
-                <h2>
+                <h3>
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         Learn More
                     </a>
-                </h2>
+                </h3>
             </div>
         </div>
     );

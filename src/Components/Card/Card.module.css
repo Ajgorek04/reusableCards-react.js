@@ -30,3 +30,12 @@ header img {
 .learnMore {
     text-align: center;
 }
+
+.learnMore a {
+    text-decoration: underline;
+    color: #f2f2f2;
+}
+
+.learnMore a:hover {
+    color: #e3bb88;
+}
