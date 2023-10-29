@@ -3,9 +3,10 @@
     flex-direction: column;
     min-height: 100%;
     flex: 1;
-    padding: 1rem;
+    padding: 1.25rem;
     justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.9);
+    gap: 1rem;
 }
 
 header p {
@@ -42,11 +43,6 @@ header img {
 
 @media only screen and (max-width: 700px) {
     .card {
-        padding: 1rem;
-        justify-content: space-evenly;
-    }
-
-    header p {
-        margin: 0;
+        min-height: auto;
     }
 }
