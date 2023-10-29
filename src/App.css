@@ -2,6 +2,8 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .card {
@@ -12,34 +14,31 @@
 .card:first-child {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.025);
+    justify-content: space-evenly;
 }
 
 .card:first-child header {
     text-align: center;
 }
 
-.imageText {
-    padding: 1rem;
+.designedBy {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 2rem;
 }
 
-.card:first-child img {
-    width: 100%;
-}
-
-.readMore {
-    text-align: center;
-}
-
-.readMore a {
+.designedBy a {
     text-decoration: underline;
     color: #f2f2f2;
 }
 
-.readMore a:hover {
+.designedBy a:hover {
     color: bisque;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
 }
